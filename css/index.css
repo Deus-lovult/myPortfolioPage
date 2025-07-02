@@ -84,10 +84,11 @@ body {
   height: 400px;
 }
 
-/*自己紹介欄*/
-.myProfile {
-  border-radius: 5%;
-  background-color: #f8f8ff;
+/*自己紹介欄 スキル一覧 成果物一覧*/
+.myProfile,
+.mySkillSet,
+.myWorks {
+  margin: 24px 0px;
   height: 400px;
 }
 
