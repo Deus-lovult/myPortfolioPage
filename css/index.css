@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*ボディー*/
+body {
+  background-color: #dffcff;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", sans-serif;
+  color: black;
+}
+
+/*ナビゲーションバー全体*/
+.navContainer {
+  background-color: #f8f8ff;
+  display: flex;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  height: 65px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+/*ナビゲーションバー内のタイトル*/
+.titleContainer {
+  padding-left: 20px;
+  align-content: center;
+}
+
+/*ナビゲーションバー内のメニュー全体*/
+.menuContainer {
+  display: flex;
+  margin-left: 200px;
+}
+
+/*メニューボックス*/
+.menuBox {
+  width: 145px;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+}
+
+/*メニュー内リンク*/
+.menuContainer .menuBox a {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  transform: translateY(-50%) translateX(-50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+}
+
+/*個別ボックス*/
+#output {
+  width: 70px;
+}
+
+/*メニューホバー*/
+.menuBox:hover {
+  background-color: #dffcff;
+}
+
+/*画面初期表示*/
+.firstViewContainer {
+  background-image: url("../img/test.jpeg");
+  background-size: cover;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+/*タイトルテキスト*/
+.titleText {
+  text-align: center;
+}
+
+/*サイト説明欄*/
+.descContainer {
+  margin-top: 40px;
+  height: 400px;
+}
+
+/*自己紹介欄*/
+.myProfile {
+  border-radius: 5%;
+  background-color: #f8f8ff;
+  height: 400px;
+}
+
+/*フッター全体*/
+.footerContainer {
+  width: 100%;
+  height: 400px;
+}
+
+/*フッター内テキスト*/
+.footerContainer p {
+  text-align: center;
+  font-size: 96px;
+}
